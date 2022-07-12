@@ -42,3 +42,70 @@ body {
   line-height: 1;
 }
 
+
+
+.our-promise {
+  background-color: #F5F5F5;;
+}
+.conteiner {
+  max-width: 1020px;
+  margin: 0 auto;
+  /* не знаю как это указать по БЕМ     (upd уже нашел одну идею)*/
+}
+.our-promise__sub-title {
+  padding-top: 90px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 2.5px;
+  max-width: 450px;
+  color: #5d62b5;
+  margin: 0px 0px 32px 7px;
+}
+.our-promise__sub-title::before{
+  content: url(../img/icon.svg);
+  position: relative;
+  top: 11px;
+  left: -10px;
+}
+.our-promise__title {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  max-width: 583px;
+  margin: 0px 0px 69px 0px;
+}
+.our-promise__block-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.our-promise__column {
+  padding-bottom: 120px;
+  max-width: 324px;
+}
+.desc-column {
+  display: flex;
+  column-gap: 23px;
+}
+.desc-column__img {
+  align-self: flex-start;
+}
+.desc-column__text-block {
+}
+.desc-column__title {
+  line-height: 1.4;
+  font-weight: 900;
+  font-size: 19px;
+  font-weight: 26px;
+  color: #f2726f;
+  margin-bottom: 20px;
+}
+.desc-column__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: #4b4b4b;
+}
